@@ -1,0 +1,80 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: #F5FFFA;
+}
+.header{
+    font-family: 'McLaren', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 75px;
+    color: palevioletred;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.gif{
+    display: grid;
+    align-content: center;
+    border-radius: 30px;
+    font-family: 'McLaren', cursive;
+}
+iframe{
+    border-style: dotted;
+}
+#faveGifs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    font-family: 'McLaren', cursive;
+}
+#faveGif{
+    display: grid;
+    align-content: center;
+    border-radius: 30px; 
+    font-family: 'McLaren', cursive;
+}
+button{
+    font-family: 'McLaren', cursive;
+    margin-top: 10px;
+}
+h1{
+    color: palevioletred;
+    font-family: 'McLaren', cursive;
+    margin-right: 45px;
+}
+#searchGif{
+    font-family: 'McLaren', cursive;
+    font-size: large;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: 5px solid grey;
+    text-align: center;
+    justify-content: center;
+}
+.searchButton{
+    height:30px;
+    width: 80px;
+}
+.searchButton:hover{
+    background-color: palevioletred;
+}
+.add{
+    width: 80px; 
+    justify-content: center;
+    text-align: center;
+}
+.remove{
+    width: 80px; 
+    justify-content: center;
+    text-align: center;   
+}
